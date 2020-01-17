@@ -1,0 +1,117 @@
+#logo {
+    height: 50px;
+}
+nav {
+    display: flex
+}
+.hero-paragraph strong {
+    font-size: 24px;
+}
+nav a {
+    font-weight: bold;
+    text-decoration: none;
+    padding: 8px 20px;
+    margin-left: 8px;
+}
+audio {
+    width: 100%;
+}
+a.current {
+    color: #d76902;
+}
+.focus1 {
+    color: gray;
+}
+.focus2 {
+    color: #d76902;
+}
+.label-row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -20px;
+}
+.label-row label {
+    flex: 200px 1 0;
+    margin-bottom: 20px;
+    margin-left: 20px;
+}
+#contact input[type=text], #contact input[type=email], #contact textarea {
+    display: block;
+    border: none;
+    width: 100%;
+    padding: 8px;
+    font-size: 1.2em;
+    margin-top: 4px;
+}
+.footer-copyright a:first-child {
+    margin-right: 40px;
+}
+.pricing-table-main img {
+    width: 80%;
+    margin-left: 10%;
+}
+
+.cta-cta {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.footer-social-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-copyright {
+    display: flex;
+    justify-content: center;
+}
+
+.footer-copyright img {
+    height: 40px;
+}
+
+#display-screen {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255,255,255,0.9);
+    border: solid 2px #DDD;
+    z-index: 10;
+    font-weight: bold;
+    padding: 10px;
+    font-size: 14px;
+    overflow: auto;
+    text-align: left;
+}
+
+@media (max-width: 640px) {
+    #display-screen {
+        font-size: 12px;
+    }
+}
+
+pre {
+    margin: 0;
+    padding: 0;
+    background: none;
+    font-size: inherit;
+    white-space: pre;
+    overflow-x: hidden;
+}
+#code-label {
+    margin-top: 0;
+    padding: 12px 8px;
+    margin-bottom: 10px;
+    background-color: #EEE;
+    border-radius: 2px;
+    line-height: 1em;
+    text-align: center;
+}
+.your_code {
+    color: gray;
+}
+.our_code {
+    color: #d76902;
+}
